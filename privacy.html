@@ -1,205 +1,433 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="napoPhoto プライバシーポリシー">
+  <title>napoPhoto | プライバシーポリシー</title>
 
-<title>プライバシーポリシー</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-<style>
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
-    "Hiragino Kaku Gothic ProN", Arial, sans-serif;
-    line-height: 1.8;
-    color: #333;
-    margin: 0;
-    padding: 20px;
-    background: #ffffff;
-}
+    body {
+      margin: 0;
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Hiragino Kaku Gothic ProN",
+        "Hiragino Sans",
+        "Yu Gothic",
+        "YuGothic",
+        Meiryo,
+        sans-serif;
+      background: #fff8fa;
+      color: #4a3f42;
+      line-height: 1.9;
+    }
 
-.container {
-    max-width: 800px;
-    margin: auto;
-}
+    .container {
+      width: min(900px, calc(100% - 32px));
+      margin: 0 auto;
+    }
 
-h1 {
-    font-size: 26px;
-    margin-bottom: 40px;
-    text-align: center;
-}
+    header {
+      padding: 64px 20px 48px;
+      text-align: center;
+      background: linear-gradient(
+        135deg,
+        #fff1f5 0%,
+        #ffe8ef 100%
+      );
+      border-bottom: 1px solid #f8d9e2;
+    }
 
-h2 {
-    font-size: 19px;
-    margin-top: 35px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 5px;
-}
+    .logo {
+      display: inline-block;
+      margin-bottom: 14px;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      color: #d58a9e;
+    }
 
-p {
-    margin: 12px 0;
-}
+    h1 {
+      margin: 0;
+      font-size: clamp(26px, 5vw, 36px);
+      font-weight: 600;
+      color: #5a464c;
+      letter-spacing: 0.04em;
+    }
 
-ul {
-    padding-left: 25px;
-}
+    .updated {
+      margin-top: 12px;
+      font-size: 13px;
+      color: #9b858b;
+    }
 
-a {
-    color: #007aff;
-    text-decoration: none;
-}
+    main {
+      padding: 48px 0 72px;
+    }
 
-.footer {
-    margin-top: 40px;
-}
-</style>
+    .intro {
+      margin-bottom: 36px;
+      padding: 24px 26px;
+      background: #ffffff;
+      border: 1px solid #f5dfe5;
+      border-radius: 16px;
+      box-shadow: 0 4px 18px rgba(190, 130, 145, 0.06);
+    }
 
+    section {
+      margin-bottom: 36px;
+      padding: 30px 30px;
+      background: #ffffff;
+      border: 1px solid #f5dfe5;
+      border-radius: 16px;
+      box-shadow: 0 4px 18px rgba(190, 130, 145, 0.05);
+    }
+
+    h2 {
+      margin: 0 0 18px;
+      padding-bottom: 10px;
+      font-size: 20px;
+      font-weight: 600;
+      color: #b86f84;
+      border-bottom: 1px solid #f4dce3;
+    }
+
+    h3 {
+      margin: 22px 0 10px;
+      font-size: 16px;
+      color: #6b555b;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      margin: 12px 0 16px;
+      padding-left: 1.4em;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .highlight {
+      margin: 18px 0;
+      padding: 18px 20px;
+      background: #fff4f7;
+      border-left: 4px solid #e7a7b8;
+      border-radius: 8px;
+    }
+
+    .highlight strong {
+      color: #a85f76;
+    }
+
+    .face-data {
+      background: #fff7f9;
+      border: 1px solid #f3d8e0;
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 18px;
+    }
+
+    .face-data ul {
+      margin-bottom: 0;
+    }
+
+    .google-policy {
+      margin-top: 16px;
+      color: #b86f84;
+    }
+
+    footer {
+      padding: 32px 20px;
+      text-align: center;
+      background: #fff0f4;
+      border-top: 1px solid #f5d9e1;
+      color: #9b858b;
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 48px 16px 36px;
+      }
+
+      main {
+        padding: 28px 0 48px;
+      }
+
+      section,
+      .intro {
+        padding: 22px 20px;
+        border-radius: 14px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+
+      body {
+        font-size: 14px;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-<div class="container">
+  <header>
+    <div class="container">
+      <div class="logo">napoPhoto</div>
+      <h1>プライバシーポリシー</h1>
+      <div class="updated">Privacy Policy</div>
+    </div>
+  </header>
 
-<h1>プライバシーポリシー</h1>
+  <main>
+    <div class="container">
 
-<p>最終更新日：2026年7月31日</p>
+      <div class="intro">
+        <p>
+          napoPhoto（以下、「本アプリ」といいます。）は、
+          ユーザーのプライバシーを尊重し、個人情報および利用データの
+          適切な取り扱いに努めます。
+        </p>
+      </div>
 
+      <section>
+        <h2>1. 取得する情報について</h2>
 
-<p>
-napoPhoto（以下、「本アプリ」といいます。）は、ユーザーのプライバシーを尊重し、個人情報および利用データの適切な取り扱いに努めます。
-</p>
+        <p>
+          本アプリは、通常の利用において、氏名、住所、電話番号、
+          メールアドレスなど、ユーザーを直接特定できる個人情報を取得しません。
+        </p>
 
+        <p>
+          また、本アプリで加工した写真・画像データを、
+          開発者のサーバーやクラウドサービスへ送信・保存することはありません。
+        </p>
 
-<h2>1. 取得する情報について</h2>
+        <p>
+          写真や画像データの処理はすべてユーザーの端末内で行われます。
+          加工中の画像データは、本アプリの機能提供のため一時的に端末内で
+          処理されますが、開発者が写真・画像データを取得、閲覧、保存することはありません。
+        </p>
+      </section>
 
-<p>
-本アプリは、通常の利用において、氏名、住所、電話番号、メールアドレスなど、ユーザーを直接特定できる個人情報を取得しません。<br>
-ただし、広告配信サービスの利用に伴い、第三者サービスが一定の情報を取得する場合があります。
-</p>
+      <section>
+        <h2>2. Face Dataについて</h2>
 
-<p>
-本アプリで加工した写真・画像データを、開発者のサーバーやクラウドサービスへ送信・保存することはありません。
-</p>
+        <p>
+          本アプリでは、写真の加工機能を提供するため、
+          ユーザーの端末上で顔検出（Face Detection）を行う場合があります。
+        </p>
 
-<p>
-写真や画像データの処理はすべてユーザーの端末内で行われます。<br>
-加工中の画像データは、本アプリの機能提供のため一時的に端末内で処理されますが、開発者が写真・画像データを取得、閲覧、保存することはありません。
-</p>
+        <p>
+          顔検出は、写真内の顔の位置や範囲を検出し、
+          顔の輪郭、目、その他の顔に関連する加工を適切に行うために使用されます。
+        </p>
 
+        <div class="highlight">
+          <strong>
+            本アプリでは、顔検出のために処理された画像データや、
+            顔検出によって取得される顔の位置・特徴などの情報
+            （以下、「Face Data」といいます。）を収集、保存、送信することはありません。
+          </strong>
+        </div>
 
-<h2>2. カメラ・写真ライブラリへのアクセスについて</h2>
+        <div class="face-data">
+          <h3>Face Dataの取り扱い</h3>
 
-<p>
-本アプリは、画像保存機能を提供するため、端末のカメラおよび写真ライブラリへのアクセス権限を使用します。
-</p>
+          <ul>
+            <li>
+              Face Dataの処理はすべてユーザーの端末内で行われます。
+            </li>
+            <li>
+              Face Dataを開発者が取得、閲覧、保存することはありません。
+            </li>
+            <li>
+              Face Dataを開発者のサーバー、クラウドサービス、
+              その他の外部サーバーへ送信することはありません。
+            </li>
+            <li>
+              Face Dataを第三者へ提供することはありません。
+            </li>
+            <li>
+              Face Dataを広告配信、広告効果測定、ユーザーの識別、
+              ユーザーの追跡その他の目的で利用することはありません。
+            </li>
+            <li>
+              Face Dataをユーザー本人の特定や個人識別の目的で利用することはありません。
+            </li>
+            <li>
+              Face Dataは、写真加工機能の提供に必要な範囲で
+              端末上で処理され、外部に保存されることはありません。
+            </li>
+          </ul>
+        </div>
+      </section>
 
-<p>
-写真・画像データはユーザーの端末内で処理され、開発者のサーバーや第三者サービスへ送信されることはありません。<br>
-ユーザーが保存操作を行った場合、加工後の画像はユーザーの端末内の写真ライブラリへ保存されます。
-</p>
+      <section>
+        <h2>3. カメラ・写真ライブラリへのアクセスについて</h2>
 
+        <p>
+          本アプリは、写真の撮影、写真の選択および画像保存機能を提供するため、
+          端末のカメラおよび写真ライブラリへのアクセス権限を使用します。
+        </p>
 
-<h2>3. 広告について</h2>
+        <p>
+          写真・画像データはユーザーの端末内で処理され、
+          開発者のサーバーや第三者サービスへ送信されることはありません。
+        </p>
 
-<p>
-本アプリでは、広告配信サービスとしてGoogle AdMobを利用しています。
-</p>
+        <p>
+          ユーザーが保存操作を行った場合、加工後の画像は
+          ユーザーの端末内の写真ライブラリへ保存されます。
+        </p>
+      </section>
 
-<p>
-Google AdMobは、広告表示および広告配信の最適化を目的として、以下のような情報を取得・利用する場合があります。
-</p>
+      <section>
+        <h2>4. 広告について</h2>
 
-<ul>
-<li>デバイス情報</li>
-<li>広告識別子（IDFAなど。ユーザーが許可した場合）</li>
-<li>広告に関する情報</li>
-<li>アプリの利用状況に関する情報</li>
-<li>診断データ</li>
-<li>IPアドレスなどのネットワーク情報</li>
-</ul>
-    <p>
-なお、本アプリで加工した写真や画像データは、ユーザーの端末内でのみ処理され、Google AdMobを含む第三者サービスへ送信されることはありません。</p>
-<p>
-本アプリでは、ユーザーが許可した場合を除き、他社アプリやWebサイトを横断した広告目的のトラッキングを行いません。<br>
-ATT（App Tracking Transparency）の許可が提供された場合、広告効果測定や広告配信の最適化を目的として、IDFAなどの情報が利用される場合があります。
-</p>
+        <p>
+          本アプリでは、広告配信サービスとしてGoogle AdMobを利用しています。
+        </p>
 
-<p>
-Googleによる情報の取り扱いについては、以下をご確認ください。
-</p>
+        <p>
+          Google AdMobは、広告表示および広告配信の最適化を目的として、
+          以下のような情報を取得・利用する場合があります。
+        </p>
 
-<p>
-<a href="https://policies.google.com/privacy" target="_blank">
-Google プライバシーポリシー
-</a>
-</p>
+        <ul>
+          <li>デバイス情報</li>
+          <li>広告識別子（IDFAなど。ユーザーが許可した場合）</li>
+          <li>広告に関する情報</li>
+          <li>アプリの利用状況に関する情報</li>
+          <li>診断データ</li>
+          <li>IPアドレスなどのネットワーク情報</li>
+        </ul>
 
+        <p>
+          なお、本アプリで加工した写真や画像データ、
+          Face Dataは、ユーザーの端末内でのみ処理され、
+          Google AdMobを含む第三者サービスへ送信されることはありません。
+        </p>
 
-<h2>4. 個人情報の利用について</h2>
+        <p>
+          本アプリでは、ユーザーが許可した場合を除き、
+          他社アプリやWebサイトを横断した広告目的のトラッキングを行いません。
+        </p>
 
-<p>
-本アプリは通常の利用において個人情報を取得しません。
-</p>
+        <p>
+          ATT（App Tracking Transparency）の許可が提供された場合、
+          広告効果測定や広告配信の最適化を目的として、
+          IDFAなどの情報が利用される場合があります。
+        </p>
 
-<p>
-ただし、お問い合わせなどによりユーザーから個人情報をご提供いただいた場合、以下の目的で利用する場合があります。
-</p>
+        <p class="google-policy">
+          Googleによる情報の取り扱いについては、
+          Googleのプライバシーポリシーをご確認ください。
+        </p>
+      </section>
 
-<ul>
-<li>お問い合わせへの対応</li>
-<li>不具合の調査および対応</li>
-<li>サービス改善</li>
-</ul>
+      <section>
+        <h2>5. 個人情報の利用について</h2>
 
-<p>
-また、サービス品質向上のため、取得した情報を個人を特定できない統計情報として利用する場合があります。
-</p>
+        <p>
+          本アプリは通常の利用において個人情報を取得しません。
+        </p>
 
+        <p>
+          ただし、お問い合わせなどによりユーザーから個人情報をご提供いただいた場合、
+          以下の目的で利用する場合があります。
+        </p>
 
-<h2>5. 第三者への提供について</h2>
+        <ul>
+          <li>お問い合わせへの対応</li>
+          <li>不具合の調査および対応</li>
+          <li>サービス改善</li>
+        </ul>
 
-<p>
-本アプリは、法令に基づく場合を除き、ユーザーの個人情報を第三者へ提供することはありません。
-</p>
+        <p>
+          また、サービス品質向上のため、取得した情報を
+          個人を特定できない統計情報として利用する場合があります。
+        </p>
+      </section>
 
-<p>
-Google AdMobなどの第三者サービス提供者は、それぞれのプライバシーポリシーに基づき情報を取り扱う場合があります。
-</p>
+      <section>
+        <h2>6. 第三者への提供について</h2>
 
+        <p>
+          本アプリは、法令に基づく場合を除き、
+          ユーザーの個人情報を第三者へ提供することはありません。
+        </p>
 
-<h2>6. データの安全管理</h2>
+        <p>
+          Google AdMobなどの第三者サービス提供者は、
+          それぞれのプライバシーポリシーに基づき情報を取り扱う場合があります。
+        </p>
 
-<p>
-本アプリは、ユーザー情報を適切に管理し、不正アクセスや情報漏えいの防止に努めます。
-</p>
+        <p>
+          なお、写真・画像データおよびFace Dataが、
+          広告配信サービスを含む第三者サービスへ送信されることはありません。
+        </p>
+      </section>
 
+      <section>
+        <h2>7. データの安全管理</h2>
 
-<h2>7. プライバシーポリシーの変更</h2>
+        <p>
+          本アプリは、ユーザー情報を適切に管理し、
+          不正アクセスや情報漏えいの防止に努めます。
+        </p>
 
-<p>
-本ポリシーは、法令やサービス内容の変更に応じて改定する場合があります。
-</p>
+        <p>
+          また、写真・画像データおよびFace Dataについて、
+          開発者のサーバー等への送信・保存を行いません。
+        </p>
+      </section>
 
-<p>
-変更後のプライバシーポリシーは、本ページに掲載された時点から効力を生じます。
-</p>
+      <section>
+        <h2>8. プライバシーポリシーの変更</h2>
 
+        <p>
+          本ポリシーは、法令やサービス内容の変更に応じて改定する場合があります。
+        </p>
 
-<h2>8. お問い合わせ</h2>
+        <p>
+          変更後のプライバシーポリシーは、
+          本ページに掲載された時点から効力を生じます。
+        </p>
+      </section>
 
+      <section>
+        <h2>9. お問い合わせ</h2>
 
-  <p>
-      本ポリシーに関するお問い合わせは、<a href="mailto:naponoa.inc@gmail.com">サポート窓口</a> までご連絡ください。
-    </p>
+        <p>
+          本ポリシーに関するお問い合わせは、
+          サポート窓口までご連絡ください。
+        </p>
+      </section>
 
+    </div>
+  </main>
 
-<div class="footer">
-<p>
-<center>© 2026 naponoa</center>
-</p>
-</div>
-
-
-</div>
+  <footer>
+    <div class="container">
+      &copy; napoPhoto. All Rights Reserved.
+    </div>
+  </footer>
 
 </body>
 </html>
