@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -81,7 +82,7 @@
 
     section {
       margin-bottom: 36px;
-      padding: 30px 30px;
+      padding: 30px;
       background: #ffffff;
       border: 1px solid #f5dfe5;
       border-radius: 16px;
@@ -132,21 +133,18 @@
       color: #a85f76;
     }
 
-    .face-data {
+    .face-data,
+    .analytics {
+      margin-top: 18px;
+      padding: 20px;
       background: #fff7f9;
       border: 1px solid #f3d8e0;
       border-radius: 12px;
-      padding: 20px;
-      margin-top: 18px;
     }
 
-    .face-data ul {
+    .face-data ul,
+    .analytics ul {
       margin-bottom: 0;
-    }
-
-    .google-policy {
-      margin-top: 16px;
-      color: #b86f84;
     }
 
     footer {
@@ -199,6 +197,8 @@
 
       <div class="intro">
         <p>
+          最終更新日：2026/8/12<br>
+          <br>
           napoPhoto（以下、「本アプリ」といいます。）は、
           ユーザーのプライバシーを尊重し、個人情報および利用データの
           適切な取り扱いに努めます。
@@ -214,7 +214,7 @@
         </p>
 
         <p>
-          また、本アプリで加工した写真・画像データを、
+          本アプリで加工した写真・画像データを、
           開発者のサーバーやクラウドサービスへ送信・保存することはありません。
         </p>
 
@@ -298,46 +298,51 @@
       </section>
 
       <section>
-        <h2>4. 広告について</h2>
+        <h2>4. アプリの利用状況・Analyticsについて</h2>
 
         <p>
-          本アプリでは、広告配信サービスとしてGoogle AdMobを利用しています。
+          本アプリでは、サービスの品質向上、機能改善および不具合の調査を目的として、
+          アプリの利用状況や診断に関する情報を収集・利用する場合があります。
+        </p>
+
+        <div class="analytics">
+          <h3>収集・利用する場合がある情報</h3>
+
+          <ul>
+            <li>アプリの起動や利用状況に関する情報</li>
+            <li>使用された機能に関する情報</li>
+            <li>アプリの設定や操作に関する情報</li>
+            <li>エラーやクラッシュなどの診断情報</li>
+            <li>端末およびOSに関する情報</li>
+            <li>アプリのバージョンに関する情報</li>
+          </ul>
+        </div>
+
+        <p>
+          これらの情報は、アプリの機能改善、ユーザー体験の向上、
+          不具合の原因調査およびサービスの安定性向上のために利用します。
+        </p>
+
+        <div class="highlight">
+          <strong>
+            本アプリでは、Analyticsのために写真・画像データ、
+            Face Data、顔画像、顔の特徴量などの情報を収集することはありません。
+          </strong>
+        </div>
+
+        <p>
+          写真・画像データおよびFace Dataは、引き続きユーザーの端末内で処理され、
+          Analyticsを含む外部サービスへ送信されることはありません。
         </p>
 
         <p>
-          Google AdMobは、広告表示および広告配信の最適化を目的として、
-          以下のような情報を取得・利用する場合があります。
-        </p>
-
-        <ul>
-          <li>デバイス情報</li>
-          <li>広告識別子（IDFAなど。ユーザーが許可した場合）</li>
-          <li>広告に関する情報</li>
-          <li>アプリの利用状況に関する情報</li>
-          <li>診断データ</li>
-          <li>IPアドレスなどのネットワーク情報</li>
-        </ul>
-
-        <p>
-          なお、本アプリで加工した写真や画像データ、
-          Face Dataは、ユーザーの端末内でのみ処理され、
-          Google AdMobを含む第三者サービスへ送信されることはありません。
+          本アプリでは広告配信を行っておらず、
+          広告目的でユーザーを追跡することはありません。
         </p>
 
         <p>
-          本アプリでは、ユーザーが許可した場合を除き、
-          他社アプリやWebサイトを横断した広告目的のトラッキングを行いません。
-        </p>
-
-        <p>
-          ATT（App Tracking Transparency）の許可が提供された場合、
-          広告効果測定や広告配信の最適化を目的として、
-          IDFAなどの情報が利用される場合があります。
-        </p>
-
-        <p class="google-policy">
-          Googleによる情報の取り扱いについては、
-          Googleのプライバシーポリシーをご確認ください。
+          Analyticsによって収集される情報についても、
+          ユーザーを直接特定することを目的として利用するものではありません。
         </p>
       </section>
 
@@ -374,13 +379,14 @@
         </p>
 
         <p>
-          Google AdMobなどの第三者サービス提供者は、
-          それぞれのプライバシーポリシーに基づき情報を取り扱う場合があります。
+          Analyticsなどの第三者サービスを利用する場合、
+          それぞれのサービス提供者のプライバシーポリシーに基づき
+          情報が取り扱われる場合があります。
         </p>
 
         <p>
           なお、写真・画像データおよびFace Dataが、
-          広告配信サービスを含む第三者サービスへ送信されることはありません。
+          Analyticsを含む第三者サービスへ送信されることはありません。
         </p>
       </section>
 
@@ -416,7 +422,7 @@
 
         <p>
           本ポリシーに関するお問い合わせは、
-         <a href="mailto:naponoa.inc@gmail.com">メールを送る</a>までご連絡ください。
+          <a href="mailto:naponoa.inc@gmail.com">サポート窓口</a>までご連絡ください。
         </p>
       </section>
 
@@ -431,3 +437,4 @@
 
 </body>
 </html>
+```
